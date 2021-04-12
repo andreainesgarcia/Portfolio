@@ -1,4 +1,28 @@
-#titulo {
-  color: brown;
-  font-size: 100px;
+.color1 {
+  color: #96858f;
+  font-size: 30px;
+}
+.color2 {
+  color: #6d7993;
+  font-size: 30px;
+}
+.color3 {
+  color: #9099a2;
+  font-size: 30px;
+}
+.color4 {
+  color: #d5d5d5;
+  font-size: 30px;
+}
+.fondo1 {
+  background-color: #96858f;
+}
+.fondo2 {
+  background-color: #6d7993;
+}
+.fondo3 {
+  background-color: #9099a2;
+}
+.fondo4 {
+  background-color: #d5d5d5;
 }
