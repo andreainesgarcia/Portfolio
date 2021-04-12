@@ -2,45 +2,63 @@ body {
   margin: 0;
   overflow-x: hidden;
   color: var(--text-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-.letra {
+.main {
+  padding-top: 5rem;
+  margin-left: 1rem;
+}
+.header {
+  background: #6d7993;
   color: white;
+  padding: 0.1rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
-
-.color1 {
-  color: #96858f;
-  font-size: 30px;
+.header a {
+  color: white;
+  text-decoration: none;
+  padding: 2rem 0;
 }
-.color2 {
-  color: #6d7993;
-  font-size: 30px;
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.color3 {
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 0.8rem 1 rem;
+  border-radius: 5px;
+  padding-left: 0.8rem;
+}
+.navigation ul li a:hover {
   color: #9099a2;
-  font-size: 30px;
 }
-.color4 {
-  color: #d5d5d5;
-  font-size: 30px;
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
 }
-.fondo1 {
-  background-color: #96858f;
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.fondo2 {
-  background-color: #6d7993;
+.logo {
+  letter-spacing: 2px;
+  font-size: 1.1em;
 }
-.fondo3 {
-  background-color: #9099a2;
-}
-.fondo4 {
-  background-color: #d5d5d5;
-}
-
 .footer {
   margin-bottom: var(--header-height);
   color: white;
-  text-align: left;
-  padding: 0.5rem;
+  text-align: center;
+  padding: 1rem;
   background-color: #6d7993;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
 }
