@@ -24,7 +24,6 @@ body {
   font-size: 20px;
   letter-spacing: 0.1em;
 }
-
 .navigation ul {
   margin: 0;
   padding: 0;
@@ -33,7 +32,6 @@ body {
 .navigation ul li {
   display: inline-block;
 }
-
 .navigation ul li a {
   display: block;
   padding: 0.8rem 1rem;
@@ -45,7 +43,6 @@ body {
   color: white;
   background-color: #6d7993;
 }
-
 .container {
   width: 85%; /*85*/
   max-width: 850px;
