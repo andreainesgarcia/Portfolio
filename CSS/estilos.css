@@ -24,14 +24,43 @@ body {
   font-size: 20px;
   letter-spacing: 0.1em;
 }
+
+.navigation {
+  width: 15em;
+  right: -15em;
+  position: absolute;
+  overflow: hidden;
+  display: block;
+  height: 10000%;
+  background-color: #000;
+}
+
+/* En escritorio reseteamos el max-height y lo posicionamos relativamente */
+@media only screen and (min-width: 37.5em) {
+  .navigation {
+    max-height: inherit;
+    position: relative;
+    right: inherit;
+    width: auto;
+    background: transparent;
+  }
+}
+
 .navigation ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .navigation ul li {
-  display: inline-block;
+  display: block;
 }
+
+@media only screen and (min-width: 37.5em){
+.navigation ul li{
+ display: inline-block;
+}
+
+
 .navigation ul li a {
   display: block;
   padding: 0.8rem 1rem;
@@ -43,6 +72,22 @@ body {
   color: white;
   background-color: #6d7993;
 }
+
+.navigation-toggle {
+ width: 50px;
+ height: 50px;
+ position: absolute;
+ top: 10px;
+ right: 0px;
+}
+/* Ocultamos el enlace en pantallas anchas */
+@media only screen and (min-width: 37.5em){
+ .navigation-toggle{
+   width: 0;
+   height: 0;
+ }
+}
+
 .container {
   width: 85%; /*85*/
   max-width: 850px;
