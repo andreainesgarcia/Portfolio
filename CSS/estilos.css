@@ -28,7 +28,7 @@ h2 {
 }
 .logo-nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .logo {
@@ -81,6 +81,10 @@ h2 {
   }
   .logo {
     display: inherit;
+  }
+
+  .logo-nav-container {
+    justify-content: space-between;
   }
 }
 
