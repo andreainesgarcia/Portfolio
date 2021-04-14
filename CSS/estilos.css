@@ -25,6 +25,9 @@ h2 {
   width: 85%;
   max-width: 850px;
   margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #6d7993;
 }
 .logo-nav-container {
   display: flex;
