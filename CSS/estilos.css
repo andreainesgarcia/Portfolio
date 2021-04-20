@@ -1,70 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
-  overflow-x: hidden;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--text-color);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow-x: hidden;
 }
+
 h2 {
-  text-align: center;
-  color: #96858f;
-  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0.3rem;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.563em;
   letter-spacing: 0.1em;
+  color: #96858f;
 }
 /* header es fijo */
-.header {
-  background: white;
-  color: white;
+header {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   padding: 0.5rem 0;
+  color: white;
+  background: white;
 }
+
+.navbar-title {
+  color: #96858f;
+}
+
 .container {
+  margin: 0 auto;
   width: 85%;
   max-width: 850px;
-  margin: 0 auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   color: #6d7993;
 }
-.logo-nav-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo {
-  width: 50px;
-  padding-top: 0.5rem;
-  display: none;
-}
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.navigation ul li {
-  display: list-item;
-}
-.navigation ul li a {
-  display: block;
-  padding: 0.8rem 1rem;
-  border-radius: 5px;
-  padding-left: 0.8rem;
-  padding-right: 6px;
-  color: #96858f;
-  text-decoration: none;
-  padding-left: 1rem;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-}
-.navigation ul li a:hover {
-  color: white;
-  background-color: #6d7993;
-}
 .main {
-  padding-top: 5rem;
+  padding-top: 0.5rem;
 }
 .image {
   margin: 0;
@@ -73,31 +55,24 @@ h2 {
   height: 450px;
 }
 .social {
+  padding-top: 10px;
   width: 30px;
   height: 30px;
-  padding-top: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .navigation ul li {
-    display: inline-block;
-  }
-  .logo {
-    display: inherit;
-  }
-
-  .logo-nav-container {
-    justify-content: space-between;
-  }
+.contacto {
+  padding: 25px 25px 20px;
+  border-radius: 6px;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .footer {
   margin-bottom: var(--header-height);
-  color: white;
-  text-align: center;
   padding: 1rem;
-  background-color: #96858f;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 12px;
+  color: white;
+  text-align: center;
+  background-color: #96858f;
   letter-spacing: 0.3em;
 }

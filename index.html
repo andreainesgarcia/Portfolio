@@ -6,30 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link href="/CSS/estilos.css" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="/images/AG.png" type="image/x-icon">
+  <meta name="description" content=" Portfolio Lic. Andrea Ines Garcia">
+
+  <link href="CSS/estilos.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="images/AG.png" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" crossorigin="anonymous">
 </head>
 
 <body>
-  <header class="header">
-    <div class="container logo-nav-container">
-      <img class="logo" src="/images/AG.png" alt="">
-      <nav class="navigation">
-        <ul>
-          <li><a href="#inicio">Inicio </a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#clientes">Clientes</a></li>
-          <li><a href="#misdatos">Mis Datos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </div>
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/AG.png" alt="" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#misdatos">Mis Datos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
   <main id="inicio" class="main">
     <div>
-      <img class="image" src="/images/inicio.jpeg" alt="">
+      <img class="image" src="images/inicio.jpeg" alt="">
     </div>
     <!--<div class="container"></div>-->
   </main>
@@ -52,13 +63,21 @@
   <section id="contacto" class="container">
     <h2>Contacto</h2>
     <p>Envie su consulta a través del siguiente formulario:</p>
+    <form class='contacto'>
+      <div><input type='text' value='' placeholder="Nombre" required></div>
+      <div><input type='text' value='' placeholder="e-mail" required></div>
+      <div><textarea rows='6' placeholder="Comentarios" required></textarea></div>
+      <div><input type='submit' value='Enviar Mensaje'></div>
+    </form>
+    <br>
   </section>
   <footer class="footer">
     <div>
       <a href="http://www.linkedin.com/in/andrea-ines-garcia" target="_blank"><img class="social"
-          src="/images/logoin.png" alt="linkedin"></a>
+          src="images/logoin.png" alt="linkedin"></a>
     </div><br>Diseñado por @andreagdom - &copy; 2021
   </footer>
+  <script src="JS/bootstrap.min.js"></script>
 </body>
 
 </html>
