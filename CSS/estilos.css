@@ -33,8 +33,16 @@ header {
   background: white;
 }
 
-.navbar-title {
+.navbar .nav-link {
+  margin-right: 29px;
+  transition: 0.2s;
+  font-size: 1.3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #96858f;
+}
+
+.nav-link:hover {
+  color: #6d7993;
 }
 
 .container {
