@@ -34,15 +34,14 @@ header {
   background: white;
 }
 
-.navbar .nav-link {
-  margin-right: 29px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #96858f;
+.navbar-brand {
+  margin-left: 5%;
 }
 
-.nav-link:hover {
-  padding-bottom: 3px;
-  color: #6d7993;
+.collapse {
+  margin-right: 5%;
+  font-size: 1.4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .container {
