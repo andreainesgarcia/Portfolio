@@ -37,7 +37,7 @@ header {
 .navbar-brand {
   margin-left: 5%;
 }
-.nav-item {
+/* .nav-item {
   font-size: 1.2rem !important;
 }
 
@@ -47,7 +47,7 @@ header {
 
 .nav-link:hover {
   color: #6d7993 !important;
-}
+} */
 
 .collapse {
   margin-right: 5%;
