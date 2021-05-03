@@ -37,10 +37,21 @@ header {
 .navbar-brand {
   margin-left: 5%;
 }
+.nav-item {
+  font-size: 1.2rem !important;
+}
+
+.nav-link {
+  color: #96858f !important;
+}
+
+.nav-link:hover {
+  color: #6d7993 !important;
+}
 
 .collapse {
   margin-right: 5%;
-  font-size: 1.4rem;
+  font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -48,10 +59,9 @@ header {
   margin: 0 auto;
   width: 85%;
   max-width: 850px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
   color: #6d7993;
 }
+
 .main {
   padding-top: 0.5rem;
 }
